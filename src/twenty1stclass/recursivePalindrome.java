@@ -1,6 +1,6 @@
 package twenty1stclass;
 
-public class RecursivePalindrome {
+public class recursivePalindrome {
     private static boolean isPalindrome(String s) {
         return isPalindrome(s.toLowerCase(), 0, s.length() - 1);
     }
